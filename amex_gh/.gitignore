@@ -1,0 +1,16 @@
+# data (do not commit competition data)
+data/raw/*
+data/cache/*
+!data/raw/.gitkeep
+!data/cache/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+Thumbs.db
